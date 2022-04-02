@@ -95,5 +95,17 @@ For our second attempt, we decreased our hidden layers to 3, but increased the a
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Result%202.png" />
 
-Not only did this method greatly increase our run time as had so many [parameters](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Params.png), our accuracy was only enhanced by 0.02%, still far under our 75% mark.
+Not only did this method greatly increase our run time as had so many [parameters](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Params.png), our accuracy was only enhanced by 0.02%, still far under our 75% mark. Other methods tried included the following:
+
+1. Removing columns such as APPLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS AND ASK_AMT did not increase our accuracy, but in most cased, actually lowered our accuracy percentage.
+2. Re-binning our APPLICATION_TYPE and CLASSIFICATION columns - this greatly reduced our accuracy to 46-58%.
+3. Adding more and less hidden layers, as well as more and less nodes - this produced varying results, but always lowered our accuracy.
+4. Changing our activation types with varying results.
+5. Using TensorFlow's keras tuner method to create a function to check for the best method for higher accuracy:
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/keras.png" />
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/keras%20results.png" />
+
+
 
