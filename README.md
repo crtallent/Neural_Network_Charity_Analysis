@@ -33,3 +33,7 @@ Another important part of preprocessing was to limit the amount of "noise" in ou
   <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/CLASS.png" title="cLASSIFICATION" width="400" height="175" />
 </p> 
 
+We then used OneHotEncoder to encode our categorical varibles in a new DataFrame, and then merged these new variables into our DataFrame and dropped the original categorical variables:
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/merged%20df.png"
+
