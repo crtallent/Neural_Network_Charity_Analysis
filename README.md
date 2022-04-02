@@ -107,5 +107,18 @@ Not only did this method greatly increase our run time as had so many [parameter
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/keras%20results.png" />
 
+With the keras tuner method, we were able to see that the highest predicted accuracy using the data in its structure was 72.79% - the highest accuracy thus far, but still below our 75% benchmark. This indicated that additional processing work to the original dataset may be needed.
+
+With that in mind, we returned to our dataset and analyzed information about our "NAME" column that we had previously dropped. Upon review of unique values, there were quite a few donations made to the same companies:
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Name_counts.png" />
+
+We decided to keep that feature in our dataset, and after tuning our hidden layers, nodes, and activation types again, we were finally able to produce results above the 75% benchmark:
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%203.png" />
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%203%20Result.png />
+          
+
 
 
