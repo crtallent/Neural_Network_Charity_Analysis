@@ -37,3 +37,12 @@ We then used OneHotEncoder to encode our categorical varibles in a new DataFrame
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/merged%20df.png" />
 
+We then split our preprocessed data into our features and target arrays and the split it into our training and testing datasets:
+
+~~~
+y = app_df.IS_SUCCESSFUL.values
+X = app_df.drop(["IS_SUCCESSFUL"], axis = 1)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify=y)
+
+~~~
