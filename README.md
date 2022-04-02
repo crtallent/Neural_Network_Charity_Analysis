@@ -28,5 +28,8 @@ Our first step in preparing the data for our neural network after reading in our
 
 Another important part of preprocessing was to limit the amount of "noise" in our dataset, to allow for smoother processing by our neural network (supervised machine learning) model. We looked at our categorical data points to determine if any of these had more than 10 unique values. We found that our APPLICATION_TYPE dimension had 17, while our CLASSIFICATION dimension had 71 unique values. We then checked the distribution of these values, and "binned" these columns into six categories each:
 
-![image](https://user-images.githubusercontent.com/91101467/161400075-dbbc36c5-28b8-4489-86b1-dd7988d59ef2.png)
+<p float="left">
+  <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/APP.png" title="APPLICATION_TYPE" width="400" height="175" />
+  <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/CLASS.png" title="cLASSIFICATION" width="400" height="175" />
+</p> 
 
