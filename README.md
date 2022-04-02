@@ -46,3 +46,17 @@ X = app_df.drop(["IS_SUCCESSFUL"], axis = 1)
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify=y)
 
 ~~~
+
+Finally, we created our StandardScaler instances, fit it, and then scaled our data:
+
+~~~
+# Create a StandardScaler instances
+scaler = StandardScaler()
+
+# Fit the StandardScaler
+X_scaler = scaler.fit(X_train)
+
+# Scale the data
+X_train_scaled = X_scaler.transform(X_train)
+X_test_scaled = X_scaler.transform(X_test)
+~~~
