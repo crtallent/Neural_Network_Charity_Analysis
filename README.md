@@ -117,8 +117,10 @@ We decided to keep that feature in our dataset, and after tuning our hidden laye
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%203.png" />
 
-<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%203%20Result.png />
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%203%20Result.png" />
           
+## Summary
 
+As we can see from our final result, we were able to increase our accuracy's model to 78.3%.  However, our training loss was 0.48, and our training accuracy was 96.63%, showing that we may have overfitted our data. We also had a total of 588,779 [parameters](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization_Final.ipynb), which was likely more than what we needed. Before using this model, it would be advisable to perform TensorFlow's keras tuner function with the updated features to determine the most accurate model to use. 
 
 
