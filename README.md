@@ -8,4 +8,6 @@ For this project, we are working with Alphabet Soup, a non-profit organization t
 
 * Software: Python 3.7.6, Jupyter Notebook 7.29.0, TensorFlow r2.7, scikit-learn 0.24
 * Data Source: [charity_data.csv](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv)
-* All code can be found at the following links: [Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) [Optimized Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization_Final.ipynb)
+* All code can be found at the following links: 
+  * [Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) 
+  * [Optimized Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization_Final.ipynb)
