@@ -70,9 +70,9 @@ Once we had our data processed, fit, and scaled, it was time to Compile, Train, 
   * Our features are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, and NAME.
 
 * Compiling, Training, and Evaluating the Model
- * A variety of neurons, layers, and activation functions were tried for this neural network model, due to attempting to find the most accurate model possible. More      details are included below.
- * We were not able to achieve our target performance in our inital try, but we were finally able to get to 78%.
- * Many steps were taken to increase our model's peformance. More details are included below.
+  * A variety of neurons, layers, and activation functions were tried for this neural network model, due to attempting to find the most accurate model possible. More      details are included below.
+  * We were not able to achieve our target performance in our inital try, but we were finally able to get to 78%.
+  * Many steps were taken to increase our model's peformance. More details are included below.
 
 The following steps were performed to compile, train, and evaluate our neural network model:
 
