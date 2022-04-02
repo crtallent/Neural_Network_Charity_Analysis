@@ -83,6 +83,13 @@ The following steps were performed to compile, train, and evaluate our neural ne
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Evaluate.png" />
 
+As we can see from our results above, our accuracy of our predictive model was not as high as we would have hoped, at 72.56%. Our goal was 75% accuracy, so we needed to optimize our model to see if could achieve a higher accuracy score. For our first attempt at optimization, we increased our hidden nodes layers to 6, which actually decreased the accuracy of our model:
+
+image Attempt 1
+
+image Result 1
+
+
 
 
 
