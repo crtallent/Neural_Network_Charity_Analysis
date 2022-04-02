@@ -66,8 +66,8 @@ Once we had our data processed, fit, and scaled, it was time to Compile, Train, 
 ## Results
 
 * Data Preprocessing
- * Our target variable is our "IS_SUCCESSFUL" column, as we are attempting to predict whether future endeavors will be successful. 
- * Our features are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, and NAME.
+  * Our target variable is our "IS_SUCCESSFUL" column, as we are attempting to predict whether future endeavors will be successful. 
+  * Our features are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, and NAME.
 
 * Compiling, Training, and Evaluating the Model
  * A variety of neurons, layers, and activation functions were tried for this neural network model, due to attempting to find the most accurate model possible. More      details are included below.
