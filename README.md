@@ -95,5 +95,5 @@ For our second attempt, we decreased our hidden layers to 3, but increased the a
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Result%202.png" />
 
-
+Not only did this method greatly increase our run time as had so many [parameters](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Params.png), our accuracy was only enhanced by 0.02%, still far under our 75% mark.
 
