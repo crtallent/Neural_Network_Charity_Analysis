@@ -73,19 +73,17 @@ The following steps were performed to compile, train, and evaluate our neural ne
 4. Create an output layer with an appropriate activation function.
 5. Check the structure of the model.
 
-image Training
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Training.png" />
 
 6. Compile and train the model, and create a callback that saves the model's weights every 5 epochs.
 
-image Callback
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Callback.png" />
+
+7. Evaluate the model using the test data to determine the loss and accuracy and save and export results to HDF5 file named "AlphabetSoupCharity".
+
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Evaluate.png" />
 
 
-
-
-
-image Callback
-
-8. 
 
 
 
