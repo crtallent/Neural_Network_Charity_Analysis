@@ -11,3 +11,22 @@ For this project, we are working with Alphabet Soup, a non-profit organization t
 * All code can be found at the following links: 
   * [Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) 
   * [Optimized Neural Network with TensorFlow](https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization_Final.ipynb)
+
+## Preprocessing the Data
+
+Our first step in preparing the data for our neural network after reading in our dataset was to drop any column not considered as either a target or feature for our model. Upon reading in our dataset, our target array was our "IS_SUCCESSFUL" column. Our features were the following columns from our dataset:
+
+* APPLICATION_TYPE
+* AFFILIATION
+* CLASSIFICATION
+* USE_CASE
+* ORGANIZATION
+* STATUS
+* INCOME_AMT
+* SPECIAL_CONSIDERATIONS
+* ASK_AMT
+
+Another important part of preprocessing was to limit the amount of "noise" in our dataset, to allow for smoother processing by our neural network (supervised machine learning) model. We looked at our categorical data points to determine if any of these had more than 10 unique values. We found that our APPLICATION_TYPE dimension had 17, while our CLASSIFICATION dimension had 71 unique values. We then checked the distribution of these values, and "binned" these columns into six categories each:
+
+![image](https://user-images.githubusercontent.com/91101467/161400075-dbbc36c5-28b8-4489-86b1-dd7988d59ef2.png)
+
