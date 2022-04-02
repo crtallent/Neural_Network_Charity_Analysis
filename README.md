@@ -89,9 +89,11 @@ As we can see from our results above, our accuracy of our predictive model was n
 
 <img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Result%201.png" />
 
+For our second attempt, we decreased our hidden layers to 3, but increased the amount of nodes in each layer, and increased our epochs to 100:
 
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Attempt%202.png" />
 
-
+<img src="https://github.com/crtallent/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Result%202.png" />
 
 
 
