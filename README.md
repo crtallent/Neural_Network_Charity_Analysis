@@ -60,3 +60,33 @@ X_scaler = scaler.fit(X_train)
 X_train_scaled = X_scaler.transform(X_train)
 X_test_scaled = X_scaler.transform(X_test)
 ~~~
+
+Once we had our data processed, fit, and scaled, it was time to Compile, Train, and Evalate our Model, as seen in our Results below.
+
+## Results
+
+The following steps were performed to compile, train, and evaluate our neural network model:
+
+1. Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow Keras.
+2. Create the first hidden layer and choose an appropriate activation function.
+3. If necessary, add a second hidden layer with an appropriate activation function.
+4. Create an output layer with an appropriate activation function.
+5. Check the structure of the model.
+
+image Training
+
+6. Compile and train the model, and create a callback that saves the model's weights every 5 epochs.
+
+image Callback
+
+
+
+
+
+image Callback
+
+8. 
+
+
+
+
